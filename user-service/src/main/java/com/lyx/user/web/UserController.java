@@ -1,8 +1,8 @@
 package com.lyx.user.web;
 
+import com.lyx.feign.pojo.User;
 import com.lyx.user.config.FormatProperties;
 import com.lyx.user.config.SharedProperties;
-import com.lyx.user.pojo.User;
 import com.lyx.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

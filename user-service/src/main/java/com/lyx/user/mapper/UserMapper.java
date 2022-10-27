@@ -1,6 +1,6 @@
 package com.lyx.user.mapper;
 
-import com.lyx.user.pojo.User;
+import com.lyx.feign.pojo.User;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 

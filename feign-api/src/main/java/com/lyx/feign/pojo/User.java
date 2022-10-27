@@ -1,4 +1,4 @@
-package com.lyx.user.pojo;
+package com.lyx.feign.pojo;
 
 import lombok.Data;
 

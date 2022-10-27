@@ -1,7 +1,7 @@
 package com.lyx.user.service;
 
+import com.lyx.feign.pojo.User;
 import com.lyx.user.mapper.UserMapper;
-import com.lyx.user.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

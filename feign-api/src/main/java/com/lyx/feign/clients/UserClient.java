@@ -1,6 +1,6 @@
-package com.lyx.order.clients;
+package com.lyx.feign.clients;
 
-import com.lyx.user.pojo.User;
+import com.lyx.feign.pojo.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

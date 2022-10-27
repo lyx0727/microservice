@@ -1,6 +1,6 @@
 package com.lyx.order.pojo;
 
-import com.lyx.user.pojo.User;
+import com.lyx.feign.pojo.User;
 import lombok.Data;
 
 @Data

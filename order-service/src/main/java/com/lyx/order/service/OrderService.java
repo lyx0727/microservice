@@ -1,9 +1,9 @@
 package com.lyx.order.service;
 
-import com.lyx.order.clients.UserClient;
+import com.lyx.feign.clients.UserClient;
+import com.lyx.feign.pojo.User;
 import com.lyx.order.mapper.OrderMapper;
 import com.lyx.order.pojo.Order;
-import com.lyx.user.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
