@@ -6,9 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-@ConfigurationProperties(prefix = "pattern")
-public class PatternProperties {
-    private String dateformat;
-    private String envSharedValue;
-    private String name;
+@ConfigurationProperties(prefix = "format")
+public class FormatProperties {
+    private String date;
 }
