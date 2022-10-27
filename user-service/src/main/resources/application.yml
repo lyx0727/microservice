@@ -12,7 +12,7 @@ spring:
     nacos:
       server-addr: localhost:8848 # nacos服务地址
       discovery:
-        cluster-name: Beijing
+        cluster-name: Shanghai
 
 mybatis:
   type-aliases-package: com.lyx.user.pojo
